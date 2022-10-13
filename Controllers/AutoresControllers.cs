@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Linq;
 using System.Threading.Tasks;
+using apicourseTENNOS.DTOs;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebAPIcourse.Models;
@@ -13,10 +15,12 @@ namespace WebAPIcourse.Controllers
     public class AutoresController : ControllerBase
     {
         private readonly ApplicationDbContext context;
+        private readonly IMapper mapper;
 
-        public AutoresController(ApplicationDbContext context)
+        public AutoresController(ApplicationDbContext context, IMapper mapper)
         {
             this.context = context;
+            this.mapper = mapper;
         }
         /*public AutoresController(ApplicationDbContext context)
         {
@@ -25,14 +29,33 @@ namespace WebAPIcourse.Controllers
 
         
         [HttpGet]
-        public async Task<ActionResult<List<Autor>>> Get()
+        public async Task<List<Autor>> Get()
         {
-            return await context.Autores.Include(x => x.Libros).ToListAsync();
+            return await context.Autores.ToListAsync();
+        }
+
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<Autor>> Get(int id)
+        {
+            var autor =  await context.Autores.FirstOrDefaultAsync(x => x.IdAutor == id);
+            if(autor == null)
+            {
+                return NotFound();
+            }
+            return autor;
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post(Autor autor)
+        public async Task<ActionResult> Post([FromBody]AutorCreacionDTO autorCreacionDTO)
         {
+            var existeAutor = await context.Autores.AnyAsync(x => x.Nombre_Autor == autorCreacionDTO.Nombre_Autor);
+
+            if(existeAutor)
+            {
+                return BadRequest($"Ya existe autor con el mismo nombre {autorCreacionDTO.Nombre_Autor}");
+            }
+
+            var autor = mapper.Map<Autor>(autorCreacionDTO);
             context.Add(autor);
             await context.SaveChangesAsync();
             return Ok();

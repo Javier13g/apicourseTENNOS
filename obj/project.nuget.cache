@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nJJLe4xoRKpfgtvXBbXX9RUcNLclbsnl3vu3izORRg21ZTmB5Co84BiER2Q902Y0ubb7vDvRcf/tKrJcav5Gzw==",
+  "dgSpecHash": "/Wa1Q2xtxLv2ScbV9jm6Gpg5GRySw6UteQoiAtUR6d/QhRXj+G7yDEwGD1LYmIQ4hAXMfv9hz+aW9o0XmLLxvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acuevas\\Documents\\WebAPIcourse\\WebAPIcourse.csproj",
+  "projectFilePath": "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\acuevas\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\acuevas\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\acuevas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\acuevas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\acuevas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\acuevas\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\acuevas\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\acuevas\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acuevas\\Documents\\WebAPIcourse\\WebAPIcourse.csproj": {}
+    "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acuevas\\Documents\\WebAPIcourse\\WebAPIcourse.csproj": {
+    "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acuevas\\Documents\\WebAPIcourse\\WebAPIcourse.csproj",
+        "projectUniqueName": "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj",
         "projectName": "WebAPIcourse",
-        "projectPath": "C:\\Users\\acuevas\\Documents\\WebAPIcourse\\WebAPIcourse.csproj",
+        "projectPath": "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj",
         "packagesPath": "C:\\Users\\acuevas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acuevas\\Documents\\WebAPIcourse\\obj\\",
+        "outputPath": "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\acuevas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
