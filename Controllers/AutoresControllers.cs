@@ -37,7 +37,7 @@ namespace WebAPIcourse.Controllers
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Autor>> Get(int id)
         {
-            var autor =  await context.Autores.FirstOrDefaultAsync(x => x.IdAutor == id);
+            var autor =  await context.Autores.FirstOrDefaultAsync(autorBD => autorBD.IdAutor == id);
             if(autor == null)
             {
                 return NotFound();
