@@ -1,0 +1,125 @@
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\appsettings.Development.json
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\appsettings.json
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\WebAPIcourse.exe
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\WebAPIcourse.deps.json
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\WebAPIcourse.runtimeconfig.json
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\WebAPIcourse.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\WebAPIcourse.pdb
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Humanizer.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.OpenApi.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\System.Drawing.Common.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\System.Runtime.Caching.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\System.Security.Permissions.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\System.Windows.Extensions.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.csproj.AssemblyReference.cache
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.GeneratedMSBuildEditorConfig.editorconfig
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.AssemblyInfoInputs.cache
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.AssemblyInfo.cs
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.csproj.CoreCompileInputs.cache
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.MvcApplicationPartsAssemblyInfo.cs
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.MvcApplicationPartsAssemblyInfo.cache
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\staticwebassets.build.json
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\staticwebassets.development.json
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\scopedcss\bundle\WebAPIcourse.styles.css
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.csproj.CopyComplete
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\refint\WebAPIcourse.dll
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.pdb
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.genruntimeconfig.cache
+\\mgsrvutl\Profiles\acuevas\My Documents\GitHub\WebAPIcourse\obj\Debug\net6.0\ref\WebAPIcourse.dll
+<<<<<<< HEAD
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.csproj.AssemblyReference.cache
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.AssemblyInfoInputs.cache
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.AssemblyInfo.cs
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.csproj.CoreCompileInputs.cache
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.dll
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\refint\WebAPIcourse.dll
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.pdb
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\appsettings.json
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\WebAPIcourse.exe
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\WebAPIcourse.deps.json
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\WebAPIcourse.runtimeconfig.json
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\WebAPIcourse.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\WebAPIcourse.pdb
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Humanizer.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\acuevas\Documents\WebAPIcourse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\scopedcss\bundle\WebAPIcourse.styles.css
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.csproj.CopyComplete
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\WebAPIcourse.genruntimeconfig.cache
+C:\Users\acuevas\Documents\WebAPIcourse\obj\Debug\net6.0\ref\WebAPIcourse.dll
+=======
+>>>>>>> df592273bd40c95bf99d7fb4ccda02bd7858eb96
