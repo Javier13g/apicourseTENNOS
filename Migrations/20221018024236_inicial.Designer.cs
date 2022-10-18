@@ -11,8 +11,8 @@ using WebAPIcourse;
 namespace WebAPIcourse.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221013191444_Inicial")]
-    partial class Inicial
+    [Migration("20221018024236_inicial")]
+    partial class inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -25,36 +25,36 @@ namespace WebAPIcourse.Migrations
 
             modelBuilder.Entity("WebAPIcourse.Models.Autor", b =>
                 {
-                    b.Property<int>("IdAutor")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdAutor"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Nombre_Autor")
                         .IsRequired()
                         .HasMaxLength(25)
                         .HasColumnType("nvarchar(25)");
 
-                    b.HasKey("IdAutor");
+                    b.HasKey("Id");
 
                     b.ToTable("Autores");
                 });
 
             modelBuilder.Entity("WebAPIcourse.Models.Libro", b =>
                 {
-                    b.Property<int>("Id_Libro")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Libro"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Titulo")
                         .IsRequired()
                         .HasMaxLength(25)
                         .HasColumnType("nvarchar(25)");
 
-                    b.HasKey("Id_Libro");
+                    b.HasKey("Id");
 
                     b.ToTable("Libros");
                 });

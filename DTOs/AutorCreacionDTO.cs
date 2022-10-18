@@ -1,11 +1,7 @@
-using System;
-using System.Collections;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 using WebAPIcourse.Validations;
 
-namespace apicourseTENNOS.DTOs
+namespace WebAPIcourse.DTOs
 {
     public class AutorCreacionDTO
     {
@@ -15,3 +11,4 @@ namespace apicourseTENNOS.DTOs
         public string Nombre_Autor { get; set; }
     }
 }
+

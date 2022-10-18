@@ -4,7 +4,7 @@
 
 namespace WebAPIcourse.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,26 +12,26 @@ namespace WebAPIcourse.Migrations
                 name: "Autores",
                 columns: table => new
                 {
-                    IdAutor = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre_Autor = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Autores", x => x.IdAutor);
+                    table.PrimaryKey("PK_Autores", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Libros",
                 columns: table => new
                 {
-                    Id_Libro = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Titulo = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Libros", x => x.Id_Libro);
+                    table.PrimaryKey("PK_Libros", x => x.Id);
                 });
         }
 

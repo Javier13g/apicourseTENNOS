@@ -2,10 +2,10 @@ using System;
 using System.Collections;
 using System.Linq;
 using System.Threading.Tasks;
-using apicourseTENNOS.DTOs;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WebAPIcourse.DTOs;
 using WebAPIcourse.Models;
 
 namespace WebAPIcourse.Controllers
@@ -27,66 +27,74 @@ namespace WebAPIcourse.Controllers
             this.context = context;
         }*/
 
-        
         [HttpGet]
-        public async Task<List<Autor>> Get()
+        public async Task<List<AutorDTO>> Get()
         {
-            return await context.Autores.ToListAsync();
+            var autores = await context.Autores.ToListAsync();
+            return mapper.Map<List<AutorDTO>>(autores);
         }
 
-        [HttpGet("{id:int}")]
-        public async Task<ActionResult<Autor>> Get(int id)
+        [HttpGet("{id:int}", Name = "obtenerAutor")]
+        public async Task<ActionResult<AutorDTOConLibros>> Get(int id)
         {
-            var autor =  await context.Autores.FirstOrDefaultAsync(autorBD => autorBD.IdAutor == id);
-            if(autor == null)
+            var autor = await context.Autores
+                .Include(autorDB => autorDB.AutoresLibros)
+                .ThenInclude(autorLibroDB => autorLibroDB.Libro)
+                .FirstOrDefaultAsync(autorBD => autorBD.Id == id);
+
+            if (autor == null)
             {
                 return NotFound();
             }
-            return autor;
+
+            return mapper.Map<AutorDTOConLibros>(autor);
+        }
+
+        [HttpGet("{nombre}")]
+        public async Task<ActionResult<List<AutorDTO>>> Get([FromRoute] string nombre)
+        {
+            var autores = await context.Autores.Where(autorBD => autorBD.Nombre_Autor.Contains(nombre)).ToListAsync();
+
+            return mapper.Map<List<AutorDTO>>(autores);
+
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody]AutorCreacionDTO autorCreacionDTO)
+        public async Task<ActionResult<Autor>> Post([FromBody] AutorCreacionDTO autorCreacionDTO)
         {
-            var existeAutor = await context.Autores.AnyAsync(x => x.Nombre_Autor == autorCreacionDTO.Nombre_Autor);
+            var existeAutorNombre = await context.Autores.AnyAsync(x => x.Nombre_Autor == autorCreacionDTO.Nombre_Autor);
 
-            if(existeAutor)
+            if (existeAutorNombre)
             {
-                return BadRequest($"Ya existe autor con el mismo nombre {autorCreacionDTO.Nombre_Autor}");
+                return BadRequest($"Existe autor con el nombre {autorCreacionDTO.Nombre_Autor}");
             }
 
             var autor = mapper.Map<Autor>(autorCreacionDTO);
             context.Add(autor);
             await context.SaveChangesAsync();
-            return Ok();
+
+            var autorDTO = mapper.Map<AutorDTO>(autor);
+
+            return CreatedAtRoute("obtenerAutor", new {id = autor.Id}, autorDTO);
         }
 
-        [HttpPut("{id:int}")] //api/autores/1
-        public async Task<ActionResult> Put(Autor autor, int id)
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult> Put (AutorCreacionDTO autorCreacionDTO, int id)
         {
-            if (autor.IdAutor != id)
-            {
-                return NotFound("El id del autor no coincide con el id de la URL");
-            }
+            var existe = await context.Autores.AnyAsync(x => x.Id == id);
 
-            context.Update(autor);
-            await context.SaveChangesAsync();
-            return Ok();
-        }
-
-        [HttpDelete("{id:int}")]
-        public async Task<ActionResult> Delete(int id)
-        {
-            var existencia = await context.Autores.AnyAsync(x => x.IdAutor == id);
-
-            if (!existencia)
+            if (!existe)
             {
                 return NotFound();
             }
 
-            context.Remove(new Autor() { IdAutor = id });
+            var autor = mapper.Map<Autor>(autorCreacionDTO);
+            autor.Id = id;
+
+            context.Update(autor);
             await context.SaveChangesAsync();
-            return Ok();
+            return NoContent();
         }
+
     }
 }
