@@ -28,7 +28,7 @@ namespace WebAPIcourse.Controllers
                 return NotFound();
             }
             var comentarios = await context.Comentarios
-            .Where(comentarioDB => comentarioDB.Id == libroId).ToListAsync();
+            .Where(comentarioDB => comentarioDB.LibroId == libroId).ToListAsync();
 
             return mapper.Map<List<ComentarioDTO>>(comentarios);
         }

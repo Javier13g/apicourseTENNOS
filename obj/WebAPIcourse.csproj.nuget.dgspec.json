@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj": {}
+    "C:\\Users\\Abdiel Cuevas\\Desktop\\apicourseTENNOS\\WebAPIcourse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj": {
+    "C:\\Users\\Abdiel Cuevas\\Desktop\\apicourseTENNOS\\WebAPIcourse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj",
+        "projectUniqueName": "C:\\Users\\Abdiel Cuevas\\Desktop\\apicourseTENNOS\\WebAPIcourse.csproj",
         "projectName": "WebAPIcourse",
-        "projectPath": "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj",
-        "packagesPath": "C:\\Users\\acuevas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\obj\\",
+        "projectPath": "C:\\Users\\Abdiel Cuevas\\Desktop\\apicourseTENNOS\\WebAPIcourse.csproj",
+        "packagesPath": "C:\\Users\\Abdiel Cuevas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdiel Cuevas\\Desktop\\apicourseTENNOS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\acuevas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abdiel Cuevas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
