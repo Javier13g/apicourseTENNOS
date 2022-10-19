@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 using WebAPIcourse.Validations;
 
 namespace WebAPIcourse.Models
@@ -12,5 +13,7 @@ namespace WebAPIcourse.Models
         public string Contenido { get; set; }
         public int LibroId { get; set; }
         public Libro libro { get; set; }
+        public string UsuarioId { get; set; }
+        public IdentityUser Usuario { get; set; }
     }
 }

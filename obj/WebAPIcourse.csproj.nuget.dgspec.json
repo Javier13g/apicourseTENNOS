@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abdiel Cuevas\\Desktop\\apicourseTENNOS\\WebAPIcourse.csproj": {}
+    "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abdiel Cuevas\\Desktop\\apicourseTENNOS\\WebAPIcourse.csproj": {
+    "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdiel Cuevas\\Desktop\\apicourseTENNOS\\WebAPIcourse.csproj",
+        "projectUniqueName": "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj",
         "projectName": "WebAPIcourse",
-        "projectPath": "C:\\Users\\Abdiel Cuevas\\Desktop\\apicourseTENNOS\\WebAPIcourse.csproj",
-        "packagesPath": "C:\\Users\\Abdiel Cuevas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdiel Cuevas\\Desktop\\apicourseTENNOS\\obj\\",
+        "projectPath": "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\WebAPIcourse.csproj",
+        "packagesPath": "C:\\Users\\acuevas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acuevas\\source\\New folder\\WebAPIcourse\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Abdiel Cuevas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\acuevas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,14 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -88,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

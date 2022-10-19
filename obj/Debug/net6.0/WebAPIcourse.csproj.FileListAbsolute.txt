@@ -132,3 +132,10 @@ C:\Users\Abdiel Cuevas\Desktop\apicourseTENNOS\obj\Debug\net6.0\refint\WebAPIcou
 C:\Users\Abdiel Cuevas\Desktop\apicourseTENNOS\obj\Debug\net6.0\WebAPIcourse.pdb
 C:\Users\Abdiel Cuevas\Desktop\apicourseTENNOS\obj\Debug\net6.0\WebAPIcourse.genruntimeconfig.cache
 C:\Users\Abdiel Cuevas\Desktop\apicourseTENNOS\obj\Debug\net6.0\ref\WebAPIcourse.dll
+C:\Users\acuevas\source\New folder\WebAPIcourse\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\acuevas\source\New folder\WebAPIcourse\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\acuevas\source\New folder\WebAPIcourse\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\acuevas\source\New folder\WebAPIcourse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\acuevas\source\New folder\WebAPIcourse\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\acuevas\source\New folder\WebAPIcourse\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\acuevas\source\New folder\WebAPIcourse\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
